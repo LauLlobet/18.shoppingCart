@@ -13,5 +13,6 @@ public class BasketService {
     }
 
     public void addItem(String userId, String itemId) {
+        basketRepository.store(new Basket(userId));
     }
 }
