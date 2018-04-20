@@ -5,7 +5,7 @@ import java.util.Objects;
 
 public class Basket {
     private String userId;
-    private ArrayList<ProductQuantity> productQuantityList = new ArrayList<>();
+    private ArrayList<ProductQuantityRecord> productQuantityList = new ArrayList<>();
 
     Basket(String userId) {
         this.userId = userId;
@@ -29,11 +29,11 @@ public class Basket {
         return Objects.hash(userId);
     }
 
-    public ArrayList<ProductQuantity> getListOfProductQuantity() {
+    public ArrayList<ProductQuantityRecord> getListOfProductQuantity() {
         return productQuantityList;
     }
 
     public void addProductQuantity(String productId, int quantity) {
-        productQuantityList.add(new ProductQuantity(productId,quantity));
+        productQuantityList.add(new ProductQuantityRecord(productId,quantity));
     }
 }

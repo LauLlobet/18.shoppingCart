@@ -12,6 +12,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
+import static org.mockito.internal.verification.VerificationModeFactory.atLeast;
 
 @RunWith(MockitoJUnitRunner.class)
 public class BasketServiceShould {
@@ -21,10 +22,14 @@ public class BasketServiceShould {
     private static final String ITEM_1_ID = "item1";
 
     private static final Basket BASKET_OF_USER_1 = new Basket(USER_1_ID);
+    private static final String PRODUCT_ID = "product1";
 
     @Mock
     private BasketRepository basketRepository;
     private BasketService basketService;
+
+    @Mock
+    private Basket basketMock; // when naming of mock make sense
 
     @Before
     public void set_up(){
@@ -39,7 +44,7 @@ public class BasketServiceShould {
 
         basketService.addItem(USER_1_ID,ITEM_1_ID, 2);
 
-        verify(basketRepository).store(BASKET_OF_USER_1);
+        verify(basketRepository, atLeast(1)).store(BASKET_OF_USER_1);
     }
 
     @Test
@@ -53,6 +58,15 @@ public class BasketServiceShould {
         assertThat(basket,is(BASKET_OF_USER_1));
     }
 
+    @Test
+    public void
+    add_items_to_basket_when_adding_items() { // command + mock
 
+        when(basketRepository.getFrom(USER_1_ID)).thenReturn(Optional.of(basketMock));
+
+        basketService.addItem(USER_1_ID,PRODUCT_ID,3);
+
+        verify(basketMock).addProductQuantity(PRODUCT_ID,3);
+    }
 
 }

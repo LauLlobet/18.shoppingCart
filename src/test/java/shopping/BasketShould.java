@@ -17,14 +17,14 @@ public class BasketShould {
 
     @Test
     public void
-    strore_product_quantity() { // cration and agregation testing no mock or stub
+    strore_product_and_quantity_record() { // cration and agregation testing no mock or stub
 
         Basket basket = new Basket("USER1");
-        ArrayList<ProductQuantity> productQuantityList = new ArrayList<>();
+        ArrayList<ProductQuantityRecord> productQuantityList = new ArrayList<>();
 
-        ProductQuantity producQuantity1 = new ProductQuantity(PRODUCT_ID_1,1);
+        ProductQuantityRecord producQuantity1 = new ProductQuantityRecord(PRODUCT_ID_1,1);
         productQuantityList.add(producQuantity1);
-        ProductQuantity producQuantity2 = new ProductQuantity(PRODUCT_ID_2,2);
+        ProductQuantityRecord producQuantity2 = new ProductQuantityRecord(PRODUCT_ID_2,2);
         productQuantityList.add(producQuantity2);
 
         basket.addProductQuantity(PRODUCT_ID_1,1);

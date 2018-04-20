@@ -14,6 +14,12 @@ public class BasketService {
 
     public void addItem(String userId, String itemId, int quantity) {
 
-        basketRepository.store(new Basket(userId));
+        Basket basket = basketRepository.getFrom(userId).orElseGet(() -> {
+            Basket newBasket = new Basket(userId);
+            basketRepository.store(newBasket);
+            return newBasket;
+        });
+        basket.addProductQuantity(itemId,quantity);
+        basketRepository.store(basket);
     }
 }

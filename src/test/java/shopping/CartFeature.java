@@ -19,7 +19,7 @@ public class CartFeature {
 
     @Test
     public void
-    permit_aggregation_of_products_at_users() { //simplest user feature
+    permit_aggregation_of_products_gived_a_user() { //simplest user feature
 
 
         basketService.addItem(USER_ID, HOBBIT_ITEM_ID,2);

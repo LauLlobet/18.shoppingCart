@@ -16,7 +16,7 @@ public class BasketRepositoryShould {
 
     @Test
     public void
-    store_to_latter_retrival_of_baskets() {
+    store_and_retrival_of_baskets() {
         BasketRepository basketRepository = new BasketRepository();
         basketRepository.store(BASKET_1);
 
