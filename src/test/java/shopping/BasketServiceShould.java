@@ -6,6 +6,8 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
+import java.util.Optional;
+
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.mockito.Mockito.verify;
@@ -45,7 +47,7 @@ public class BasketServiceShould {
     public void
     basket_should_be_retreivable_after_adding_items_to_it() { //query + stub
 
-        when(basketRepository.getFrom(USER_1_ID)).thenReturn(BASKET_OF_USER_1);
+        when(basketRepository.getFrom(USER_1_ID)).thenReturn(Optional.of(BASKET_OF_USER_1));
 
         Basket basket = basketService.basketFor(USER_1_ID);
 
