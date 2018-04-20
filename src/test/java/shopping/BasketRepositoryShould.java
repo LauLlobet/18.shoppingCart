@@ -9,13 +9,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class BasketRepositoryShould {
 
-    public static final String USERID_1 = "USERID_1";
+    private static final String USERID_1 = "USERID_1";
     private static final Basket BASKET_1 = new Basket(USERID_1);
     //maybe we'll need a defautlbasket constructor so we dont have to touch all constructors
     //when basket evolves
-    private final Optional<Basket> OPTIONAL_BASKET_1 = Optional.of(BASKET_1);
-
-    private BasketRepository basketRepository;
 
     @Test
     public void
@@ -25,6 +22,6 @@ public class BasketRepositoryShould {
 
         Optional<Basket> basket = basketRepository.getFrom(USERID_1);
 
-        assertThat(basket,is(OPTIONAL_BASKET_1));
+        assertThat(basket,is(Optional.of(BASKET_1)));
     }
 }

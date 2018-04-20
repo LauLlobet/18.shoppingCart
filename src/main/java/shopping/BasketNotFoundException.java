@@ -1,4 +1,4 @@
 package shopping;
 
-public class BasketNotFoundException extends RuntimeException{
+class BasketNotFoundException extends RuntimeException{
 }

@@ -17,7 +17,6 @@ import static org.mockito.Mockito.when;
 public class BasketServiceShould {
 
     private static final String USER_1_ID = "user1";
-    private static final User USER_1 = new User(USER_1_ID);
 
     private static final String ITEM_1_ID = "item1";
 
@@ -45,7 +44,7 @@ public class BasketServiceShould {
 
     @Test
     public void
-    basket_should_be_retreivable_after_adding_items_to_it() { //query + stub
+    should_provide_basket_after_adding_items_to_it() { //query + stub
 
         when(basketRepository.getFrom(USER_1_ID)).thenReturn(Optional.of(BASKET_OF_USER_1));
 

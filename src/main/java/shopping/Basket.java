@@ -2,7 +2,6 @@ package shopping;
 
 import java.util.ArrayList;
 import java.util.Objects;
-import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
 
 public class Basket {
     private String userId;

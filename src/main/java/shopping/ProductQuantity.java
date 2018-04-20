@@ -6,7 +6,7 @@ public class ProductQuantity {
     private final String productId;
     private final int quantity;
 
-    public ProductQuantity(String productId, int quantity) {
+    ProductQuantity(String productId, int quantity) {
 
         this.productId = productId;
         this.quantity = quantity;
