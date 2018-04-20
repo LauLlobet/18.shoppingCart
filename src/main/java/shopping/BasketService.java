@@ -9,7 +9,7 @@ public class BasketService {
     }
 
     public Basket basketFor(String userId) {
-        throw new UnsupportedOperationException();
+        return basketRepository.retrive(userId);
     }
 
     public void addItem(String userId, String itemId) {
