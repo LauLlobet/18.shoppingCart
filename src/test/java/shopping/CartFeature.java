@@ -10,7 +10,7 @@ public class CartFeature {
     private static final String USER_ID = "user1" ;
     private static final String LOTR_ITEM_ID = "lotr1";
     private BasketService basketService;
-    //decided not to call it shopping cart, so i dont have to add shopping everywhere asa a prefix
+    //decided not to call it shopping cart, so i don't have to add shopping everywhere asa a prefix
 
     @Before
     public void set_up(){
@@ -19,7 +19,7 @@ public class CartFeature {
 
     @Test
     public void
-    permit_agregation_of_products_at_users() { //simplest user feature
+    permit_aggregation_of_products_at_users() { //simplest user feature
 
         basketService.addItem(USER_ID,LOTR_ITEM_ID);
         Basket basket = basketService.basketFor(USER_ID);
