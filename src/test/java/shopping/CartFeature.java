@@ -2,8 +2,6 @@ package shopping;
 
 import org.junit.Before;
 import org.junit.Test;
-import shopping.Basket;
-import shopping.BasketService;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;

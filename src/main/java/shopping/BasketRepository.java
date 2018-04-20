@@ -1,11 +1,11 @@
 package shopping;
 
 public class BasketRepository {
-    public void store(Basket basketOfUser1) {
+    public void store(Basket basket) {
         throw new UnsupportedOperationException();
     }
 
-    public Basket retrive(String user1Id) {
+    public Basket retrive(String user) {
         throw new UnsupportedOperationException();
     }
 }

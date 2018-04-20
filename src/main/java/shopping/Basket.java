@@ -5,7 +5,8 @@ import java.util.Objects;
 public class Basket {
     private String userId;
 
-    public Basket(String userId) {
+    Basket(String userId) {
+        this.userId = userId;
     }
 
     public String getUserId() {

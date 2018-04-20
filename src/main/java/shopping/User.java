@@ -1,6 +1,9 @@
 package shopping;
 
-public class User {
-    public User(String userId) {
+class User {
+    private final String userId;
+
+    User(String userId) {
+        this.userId = userId;
     }
 }

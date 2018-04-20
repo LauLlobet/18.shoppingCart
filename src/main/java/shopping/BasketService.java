@@ -3,7 +3,7 @@ package shopping;
 public class BasketService {
     private final BasketRepository basketRepository;
 
-    public BasketService(BasketRepository basketRepository) {
+    BasketService(BasketRepository basketRepository) {
 
         this.basketRepository = basketRepository;
     }
