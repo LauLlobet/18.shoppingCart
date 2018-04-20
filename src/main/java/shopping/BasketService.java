@@ -9,7 +9,7 @@ public class BasketService {
     }
 
     public Basket basketFor(String userId) {
-        return basketRepository.retrive(userId);
+        return basketRepository.getFrom(userId);
     }
 
     public void addItem(String userId, String itemId) {

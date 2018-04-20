@@ -45,10 +45,12 @@ public class BasketServiceShould {
     public void
     basket_should_be_retreivable_after_adding_items_to_it() { //query + stub
 
-        when(basketRepository.retrive(USER_1_ID)).thenReturn(BASKET_OF_USER_1);
+        when(basketRepository.getFrom(USER_1_ID)).thenReturn(BASKET_OF_USER_1);
 
         Basket basket = basketService.basketFor(USER_1_ID);
 
         assertThat(basket,is(BASKET_OF_USER_1));
     }
+
+
 }
