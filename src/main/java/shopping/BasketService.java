@@ -12,7 +12,8 @@ public class BasketService {
         return basketRepository.getFrom(userId).orElseThrow(BasketNotFoundException::new);
     }
 
-    public void addItem(String userId, String itemId) {
+    public void addItem(String userId, String itemId, int quantity) {
+
         basketRepository.store(new Basket(userId));
     }
 }

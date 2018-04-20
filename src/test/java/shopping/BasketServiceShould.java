@@ -38,7 +38,7 @@ public class BasketServiceShould {
         //user is not in the public api
         //should be used with mocks:
 
-        basketService.addItem(USER_1_ID,ITEM_1_ID);
+        basketService.addItem(USER_1_ID,ITEM_1_ID, 2);
 
         verify(basketRepository).store(BASKET_OF_USER_1);
     }
@@ -53,6 +53,7 @@ public class BasketServiceShould {
 
         assertThat(basket,is(BASKET_OF_USER_1));
     }
+
 
 
 }

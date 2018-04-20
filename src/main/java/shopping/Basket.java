@@ -1,9 +1,12 @@
 package shopping;
 
+import java.util.ArrayList;
 import java.util.Objects;
+import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
 
 public class Basket {
     private String userId;
+    private ArrayList<ProductQuantity> productQuantityList = new ArrayList<>();
 
     Basket(String userId) {
         this.userId = userId;
@@ -25,5 +28,13 @@ public class Basket {
     public int hashCode() {
 
         return Objects.hash(userId);
+    }
+
+    public ArrayList<ProductQuantity> getListOfProductQuantity() {
+        return productQuantityList;
+    }
+
+    public void addProductQuantity(String productId, int quantity) {
+        productQuantityList.add(new ProductQuantity(productId,quantity));
     }
 }
