@@ -2,14 +2,18 @@ package shopping;
 
 import java.util.Objects;
 
-public class ProductQuantityRecord {
-    private final String productId;
+public class ItemQuantityRecord {
+    private final String itemId;
     private final int quantity;
 
-    ProductQuantityRecord(String productId, int quantity) {
+    ItemQuantityRecord(String itemId, int quantity) {
 
-        this.productId = productId;
+        this.itemId = itemId;
         this.quantity = quantity;
+    }
+
+    public String getItemId() {
+        return itemId;
     }
 
     public int getQuantity() {
@@ -20,14 +24,15 @@ public class ProductQuantityRecord {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        ProductQuantityRecord that = (ProductQuantityRecord) o;
+        ItemQuantityRecord that = (ItemQuantityRecord) o;
         return quantity == that.quantity &&
-                Objects.equals(productId, that.productId);
+                Objects.equals(itemId, that.itemId);
     }
 
     @Override
     public int hashCode() {
 
-        return Objects.hash(productId, quantity);
+        return Objects.hash(itemId, quantity);
     }
+
 }
