@@ -1,36 +1,61 @@
 package shopping;
 
 import org.hamcrest.collection.IsIterableContainingInOrder;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
 import java.util.ArrayList;
 
+import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
 public class BasketShould {
 
-    private static final String PRODUCT_ID_2 = "productId2";
-    private static final String PRODUCT_ID_1 = "productId1";
+    private static final String ITEM_ID_2 = "itemId2";
+    private static final String ITEM_ID_1 = "itemId1";
+    private Basket basket;
+
+    @Mock
+    ItemRepository itemRepository;
+
+    @Before
+    public void set_up() {
+        basket = new Basket("USER1",itemRepository);
+    }
 
     @Test
     public void
-    strore_product_and_quantity_record() { // cration and agregation testing no mock or stub
+    store_item_and_quantity_record() {
 
-        Basket basket = new Basket("USER1");
-        ArrayList<ProductQuantityRecord> productQuantityList = new ArrayList<>();
+        set_up();
+        ArrayList<ItemQuantityRecord> itemQuantityList = new ArrayList<>();
 
-        ProductQuantityRecord producQuantity1 = new ProductQuantityRecord(PRODUCT_ID_1,1);
-        productQuantityList.add(producQuantity1);
-        ProductQuantityRecord producQuantity2 = new ProductQuantityRecord(PRODUCT_ID_2,2);
-        productQuantityList.add(producQuantity2);
+        ItemQuantityRecord producQuantity1 = new ItemQuantityRecord(ITEM_ID_1,1);
+        itemQuantityList.add(producQuantity1);
+        ItemQuantityRecord producQuantity2 = new ItemQuantityRecord(ITEM_ID_2,2);
+        itemQuantityList.add(producQuantity2);
 
-        basket.addProductQuantity(PRODUCT_ID_1,1);
-        basket.addProductQuantity(PRODUCT_ID_2,2);
+        basket.addItemQuantity(ITEM_ID_1,1);
+        basket.addItemQuantity(ITEM_ID_2,2);
 
-        assertThat(basket.getListOfProductQuantity(),
-                IsIterableContainingInOrder.contains(productQuantityList.toArray()));
+        assertThat(basket.getListOfItemQuantity(),
+                IsIterableContainingInOrder.contains(itemQuantityList.toArray()));
+    }
+
+    @Test
+    public void
+    calculate_the_total_amount() {
+        when(itemRepository.getPriceFor(ITEM_ID_1)).thenReturn(5);
+        when(itemRepository.getPriceFor(ITEM_ID_2)).thenReturn(7);
+
+        basket.addItemQuantity(ITEM_ID_1,2);
+        basket.addItemQuantity(ITEM_ID_2,5);
+
+        assertThat(basket.getPriceAmount(),is(45));
     }
 }

@@ -10,7 +10,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class BasketRepositoryShould {
 
     private static final String USERID_1 = "USERID_1";
-    private static final Basket BASKET_1 = new Basket(USERID_1);
+    private static final Basket BASKET_1 = new Basket(USERID_1, new ItemRepository());
     //maybe we'll need a defautlbasket constructor so we dont have to touch all constructors
     //when basket evolves
 

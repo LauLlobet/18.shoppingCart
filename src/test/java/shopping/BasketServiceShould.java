@@ -21,8 +21,8 @@ public class BasketServiceShould {
 
     private static final String ITEM_1_ID = "item1";
 
-    private static final Basket BASKET_OF_USER_1 = new Basket(USER_1_ID);
-    private static final String PRODUCT_ID = "product1";
+    private static final Basket BASKET_OF_USER_1 = new Basket(USER_1_ID, new ItemRepository());
+    private static final String item_ID = "item1";
 
     @Mock
     private BasketRepository basketRepository;
@@ -30,17 +30,17 @@ public class BasketServiceShould {
 
     @Mock
     private Basket basketMock; // when naming of mock make sense
+    @Mock
+    private ItemRepository itemRepository;
 
     @Before
     public void set_up(){
-        basketService = new BasketService(basketRepository);
+        basketService = new BasketService(basketRepository,itemRepository);
     }
 
     @Test
     public void
-    store_basket_when_adding_item() { // command + mock
-        //user is not in the public api
-        //should be used with mocks:
+    store_basket_when_adding_item() {
 
         basketService.addItem(USER_1_ID,ITEM_1_ID, 2);
 
@@ -49,7 +49,7 @@ public class BasketServiceShould {
 
     @Test
     public void
-    should_provide_basket_after_adding_items_to_it() { //query + stub
+    should_provide_basket_after_adding_items_to_it() {
 
         when(basketRepository.getFrom(USER_1_ID)).thenReturn(Optional.of(BASKET_OF_USER_1));
 
@@ -60,13 +60,22 @@ public class BasketServiceShould {
 
     @Test
     public void
-    add_items_to_basket_when_adding_items() { // command + mock
+    add_items_to_basket_when_adding_items() {
 
         when(basketRepository.getFrom(USER_1_ID)).thenReturn(Optional.of(basketMock));
 
-        basketService.addItem(USER_1_ID,PRODUCT_ID,3);
+        basketService.addItem(USER_1_ID,item_ID,3);
 
-        verify(basketMock).addProductQuantity(PRODUCT_ID,3);
+        verify(basketMock).addItemQuantity(item_ID,3);
     }
 
+    @Test
+    public void
+    calculate_the_total_amount() {
+
+        //TODO: DELEGATED TO BASKET, IS BASKET SERVICE A FACADE?
+        //SHOULD basketserviceshould BREAK WHEN THIS CALCULUS IS DONE BAD?
+
+       assertThat(true,is(true));
+    }
 }

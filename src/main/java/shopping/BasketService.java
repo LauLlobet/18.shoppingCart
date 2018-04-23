@@ -2,10 +2,11 @@ package shopping;
 
 public class BasketService {
     private final BasketRepository basketRepository;
+    private ItemRepository itemRepository;
 
-    BasketService(BasketRepository basketRepository) {
-
+    BasketService(BasketRepository basketRepository,ItemRepository itemRepository) {
         this.basketRepository = basketRepository;
+        this.itemRepository = itemRepository;
     }
 
     public Basket basketFor(String userId) {
@@ -15,11 +16,11 @@ public class BasketService {
     public void addItem(String userId, String itemId, int quantity) {
 
         Basket basket = basketRepository.getFrom(userId).orElseGet(() -> {
-            Basket newBasket = new Basket(userId);
+            Basket newBasket = new Basket(userId, itemRepository);
             basketRepository.store(newBasket);
             return newBasket;
         });
-        basket.addProductQuantity(itemId,quantity);
+        basket.addItemQuantity(itemId,quantity);
         basketRepository.store(basket);
     }
 }

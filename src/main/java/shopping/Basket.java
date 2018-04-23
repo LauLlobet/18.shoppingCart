@@ -2,17 +2,45 @@ package shopping;
 
 import java.util.ArrayList;
 import java.util.Objects;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Basket {
     private String userId;
-    private ArrayList<ProductQuantityRecord> productQuantityList = new ArrayList<>();
+    private final ItemRepository itemRepository;
+    private ArrayList<ItemQuantityRecord> itemQuantityList = new ArrayList<>();
 
-    Basket(String userId) {
+    Basket(String userId, ItemRepository itemRepository) {
         this.userId = userId;
+        this.itemRepository = itemRepository;
     }
 
     public String getUserId() {
         return userId;
+    }
+
+    public ArrayList<ItemQuantityRecord> getListOfItemQuantity() {
+        return itemQuantityList;
+    }
+
+    public void addItemQuantity(String itemId, int quantity) {
+        itemQuantityList.add(new ItemQuantityRecord(itemId,quantity));
+    }
+
+    public int getPriceAmount() {
+        ArrayList<Integer> amounts =  itemQuantityList.stream()
+                .map(x->x.getQuantity())
+                .collect(Collectors.toCollection(ArrayList::new));
+
+        ArrayList<Integer> priceForItems =  itemQuantityList.stream()
+                .map(ItemQuantityRecord::getItemId)
+                .map(itemId -> itemRepository.getPriceFor(itemId))
+                .collect(Collectors.toCollection(ArrayList::new));
+
+        return IntStream.range(
+                0, amounts.size())
+                .mapToObj(i -> amounts.get(i) * priceForItems.get(i))
+                .reduce(0,(x,y)->x+y);
     }
 
     @Override
@@ -29,11 +57,4 @@ public class Basket {
         return Objects.hash(userId);
     }
 
-    public ArrayList<ProductQuantityRecord> getListOfProductQuantity() {
-        return productQuantityList;
-    }
-
-    public void addProductQuantity(String productId, int quantity) {
-        productQuantityList.add(new ProductQuantityRecord(productId,quantity));
-    }
 }
