@@ -32,7 +32,6 @@ public class BasketShould {
     public void
     store_item_and_quantity_record() {
 
-        set_up();
         ArrayList<ItemQuantityRecord> itemQuantityList = new ArrayList<>();
 
         ItemQuantityRecord producQuantity1 = new ItemQuantityRecord(ITEM_ID_1,1);

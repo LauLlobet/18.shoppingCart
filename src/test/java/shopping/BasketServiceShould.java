@@ -49,7 +49,7 @@ public class BasketServiceShould {
 
     @Test
     public void
-    should_provide_basket_after_adding_items_to_it() {
+    provide_basket_after_adding_items_to_it() {
 
         when(basketRepository.getFrom(USER_1_ID)).thenReturn(Optional.of(BASKET_OF_USER_1));
 
@@ -69,13 +69,5 @@ public class BasketServiceShould {
         verify(basketMock).addItemQuantity(item_ID,3);
     }
 
-    @Test
-    public void
-    calculate_the_total_amount() {
 
-        //TODO: DELEGATED TO BASKET, IS BASKET SERVICE A FACADE?
-        //SHOULD basketserviceshould BREAK WHEN THIS CALCULUS IS DONE BAD?
-
-       assertThat(true,is(true));
-    }
 }
