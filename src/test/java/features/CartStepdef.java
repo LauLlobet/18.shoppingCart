@@ -17,7 +17,7 @@ public class CartStepdef {
     private Basket tempBasket;
     private ItemRepository itemRepository;
 
-    @Given("^a shopping cart$")
+    @Given("^a shopping cart service")
     public void aShoppingCart() throws Throwable {
         itemRepository = new ItemRepository();
         basketService = new BasketService(new BasketRepository(), itemRepository);
@@ -39,7 +39,7 @@ public class CartStepdef {
         assertThat(tempBasket.getPriceAmount(),is(price));
     }
 
-    @Given("^that the database has item \"([^\"]*)\" at (\\d+) euros$")
+    @Given("^the inventory has item \"([^\"]*)\" at (\\d+) euros$")
     public void thatTheDatabaseHasItemAtEuros(String itemId, int price) throws Throwable {
         itemRepository.add(itemId,price);
     }

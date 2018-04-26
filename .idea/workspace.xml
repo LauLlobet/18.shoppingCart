@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7dc707c-7e55-4f64-a543-a7e0e4e79dd3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/shopping/ShoppingRepositoryShould.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shopping/ItemRepository.java" afterPath="$PROJECT_DIR$/src/main/java/shopping/ItemRepository.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/CartStepdef.java" afterPath="$PROJECT_DIR$/src/test/java/features/CartStepdef.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/shopping/CartFeature.java" afterPath="$PROJECT_DIR$/src/test/java/shopping/CartFeature.java" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/cart.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/cart.feature" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shopping/ImpossibleToGetPriceAmountException.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shopping/ItemRepository.class" afterPath="$PROJECT_DIR$/target/classes/shopping/ItemRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/shopping/CartFeature.class" afterPath="$PROJECT_DIR$/target/test-classes/shopping/CartFeature.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,8 +56,8 @@
           <file leaf-file-name="cart.feature" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/resources/features/cart.feature">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+                <state relative-caret-position="375">
+                  <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -70,8 +66,8 @@
           <file leaf-file-name="CartStepdef.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/features/CartStepdef.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="539">
-                  <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+                <state relative-caret-position="359">
+                  <caret line="31" column="10" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="36" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -141,12 +137,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CartFeature.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="CartFeature.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/shopping/CartFeature.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+                <state relative-caret-position="195">
+                  <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CartStepdef.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/features/CartStepdef.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="201">
+                  <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="36" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -262,10 +270,10 @@
         <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/RunCucumberTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/RunCucumberTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/CartStepdef.java" />
         <option value="$PROJECT_DIR$/src/test/java/shopping/ShoppingRepositoryShould.java" />
         <option value="$PROJECT_DIR$/src/main/java/shopping/ItemRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/shopping/CartFeature.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/CartStepdef.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/cart.feature" />
       </list>
     </option>
@@ -768,18 +776,19 @@
       <option name="project" value="LOCAL" />
       <updated>1524749052082</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="cucumber paramatrized test done">
+      <created>1524750542661</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1524750542661</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="All_Features_in__test - 2018.04.26 at 15h 39m 06s.xml">
       <configuration name="All Features in: test" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CartFeature - 2018.04.26 at 15h 35m 19s.xml">
-      <configuration name="CartFeature" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CartFeature - 2018.04.26 at 15h 37m 57s.xml">
-      <configuration name="CartFeature" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Feature__cart - 2018.04.26 at 15h 39m 18s.xml">
       <configuration name="Feature: cart" configurationId="CucumberJavaRunConfigurationType" />
@@ -791,6 +800,12 @@
       <configuration name="Feature: cart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Feature__cart - 2018.04.26 at 15h 48m 24s.xml">
+      <configuration name="Feature: cart" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__cart - 2018.04.26 at 15h 49m 35s.xml">
+      <configuration name="Feature: cart" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__cart - 2018.04.26 at 15h 51m 51s.xml">
       <configuration name="Feature: cart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="features_in_18_shoppingCart - 2018.04.26 at 15h 38m 22s.xml">
@@ -816,11 +831,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900834" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900834" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900834" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18945312" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1586914" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -888,7 +903,8 @@
     <MESSAGE value="A 1 U 1 GREEN&#10;&#10;basket stores quantityproducts" />
     <MESSAGE value="A 1 U 1 Refactor&#10;&#10;not used content removal" />
     <MESSAGE value="cucumber test done&#10;&#10;not passing because de products ID" />
-    <option name="LAST_COMMIT_MESSAGE" value="cucumber test done&#10;&#10;not passing because de products ID" />
+    <MESSAGE value="cucumber paramatrized test done" />
+    <option name="LAST_COMMIT_MESSAGE" value="cucumber paramatrized test done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1216,27 +1232,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/shopping/CartFeature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="195">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/cart.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/CartStepdef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        <state relative-caret-position="201">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/cart.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
