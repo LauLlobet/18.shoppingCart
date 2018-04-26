@@ -15,6 +15,13 @@ import static org.junit.Assert.assertThat;
 public class CartStepdef {
     private BasketService basketService;
     private Basket tempBasket;
+    private ItemRepository itemRepository;
+
+    @Given("^a shopping cart$")
+    public void aShoppingCart() throws Throwable {
+        itemRepository = new ItemRepository();
+        basketService = new BasketService(new BasketRepository(), itemRepository);
+    }
 
     @Given("^I add (\\d+) units of \"([^\"]*)\" to the cart of \"([^\"]*)\"$")
     public void iAddUnitsOfToTheCartOf(int amount, String itemId, String user) throws Throwable {
@@ -32,8 +39,8 @@ public class CartStepdef {
         assertThat(tempBasket.getPriceAmount(),is(price));
     }
 
-    @Given("^a shopping cart$")
-    public void aShoppingCart() throws Throwable {
-        basketService = new BasketService(new BasketRepository(),new ItemRepository());
+    @Given("^that the database has item \"([^\"]*)\" at (\\d+) euros$")
+    public void thatTheDatabaseHasItemAtEuros(String itemId, int price) throws Throwable {
+        itemRepository.add(itemId,price);
     }
 }

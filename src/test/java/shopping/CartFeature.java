@@ -12,10 +12,14 @@ public class CartFeature {
     private static final String BB_ITEM_ID = "breaking";
 
     private BasketService basketService;
+    private ItemRepository itemRepository;
 
     @Before
     public void set_up(){
-        basketService = new BasketService(new BasketRepository(),new ItemRepository());
+        itemRepository = new ItemRepository();
+        itemRepository.add(HOBBIT_ITEM_ID,5);
+        itemRepository.add(BB_ITEM_ID,7);
+        basketService = new BasketService(new BasketRepository(), itemRepository);
     }
 
     @Test
