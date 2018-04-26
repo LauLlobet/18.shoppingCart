@@ -26,9 +26,6 @@ public class CartFeature {
         basketService.addItem(USER_ID,BB_ITEM_ID,5);
         Basket basket = basketService.basketFor(USER_ID);
 
-
-        assertThat(basket.getUserId(),is(USER_ID));
-        assertThat(basket.getListOfItemQuantity().get(0).getQuantity(),is(2));
         assertThat(basket.getPriceAmount(),is(45));
     }
 }

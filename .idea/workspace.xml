@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7dc707c-7e55-4f64-a543-a7e0e4e79dd3" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/features/CartStepdef.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/features/RunCucumberTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/features/cart.feature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testng.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/shopping/BasketServiceShould.java" afterPath="$PROJECT_DIR$/src/test/java/shopping/BasketServiceShould.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/shopping/BasketShould.java" afterPath="$PROJECT_DIR$/src/test/java/shopping/BasketShould.java" />
+      <change beforePath="$PROJECT_DIR$/18.shoppingCart.iml" afterPath="$PROJECT_DIR$/18.shoppingCart.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shopping/BasketService.java" afterPath="$PROJECT_DIR$/src/main/java/shopping/BasketService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shopping/ImpossibleToGetPriceAmountException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/shopping/CartFeature.java" afterPath="$PROJECT_DIR$/src/test/java/shopping/CartFeature.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shopping/BasketService.class" afterPath="$PROJECT_DIR$/target/classes/shopping/BasketService.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CartFeature.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/shopping/BasketServiceShould.class" afterPath="$PROJECT_DIR$/target/test-classes/shopping/BasketServiceShould.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/shopping/BasketShould.class" afterPath="$PROJECT_DIR$/target/test-classes/shopping/BasketShould.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/shopping/CartFeature.class" afterPath="$PROJECT_DIR$/target/test-classes/shopping/CartFeature.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,7 +34,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.32806692">
+    <splitter split-orientation="horizontal" split-proportion="0.49879518">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="BasketService.java" pinned="false" current-in-tab="false">
@@ -32,8 +50,72 @@
           <file leaf-file-name="Basket.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/shopping/Basket.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="131">
-                  <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+                <state relative-caret-position="435">
+                  <caret line="36" column="54" lean-forward="false" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ItemRepository.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/shopping/ItemRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="494">
+                  <caret line="57" column="21" lean-forward="false" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cart.feature" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/features/cart.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CartStepdef.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/features/CartStepdef.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="269">
+                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RunCucumberTests.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/features/RunCucumberTests.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/testng.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -46,8 +128,18 @@
           <file leaf-file-name="BasketServiceShould.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/shopping/BasketServiceShould.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="505">
+                <state relative-caret-position="855">
                   <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/shopping/Item.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -56,8 +148,8 @@
           <file leaf-file-name="CartFeature.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/shopping/CartFeature.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+                <state relative-caret-position="360">
+                  <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
                   <folding>
                     <element signature="e#440#441#0" expanded="true" />
                     <element signature="e#534#535#0" expanded="true" />
@@ -66,7 +158,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ItemQuantityRecord.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ItemQuantityRecord.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/shopping/ItemQuantityRecord.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="60">
@@ -76,12 +168,14 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BasketShould.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="BasketShould.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/shopping/BasketShould.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="490">
-                  <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-                  <folding />
+                <state relative-caret-position="540">
+                  <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -102,7 +196,7 @@
           <file leaf-file-name="BasketRepositoryShould.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/shopping/BasketRepositoryShould.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
+                <state relative-caret-position="255">
                   <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -155,7 +249,6 @@
         <option value="$PROJECT_DIR$/src/main/java/shopping/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/shopping/BasketRepositoryShoukld.java" />
         <option value="$PROJECT_DIR$/src/main/java/shopping/BasketRepository.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/shopping/BasketNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/shopping/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/shopping/Basket.java" />
@@ -164,7 +257,15 @@
         <option value="$PROJECT_DIR$/src/main/java/shopping/BasketService.java" />
         <option value="$PROJECT_DIR$/src/test/java/shopping/BasketServiceShould.java" />
         <option value="$PROJECT_DIR$/src/test/java/shopping/BasketShould.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/shopping/CartFeature.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/CartSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RunCucumberTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/RunCucumberTests.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/cart.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/features/CartStepdef.java" />
       </list>
     </option>
   </component>
@@ -182,15 +283,20 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="18.shoppingCart" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="18.shoppingCart" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-199" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-500" />
+    <option name="y" value="-1129" />
+    <option name="width" value="1022" />
+    <option name="height" value="691" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -232,75 +338,102 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="18.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="18.shoppingCart" type="462c0819:PsiDirectoryNode" />
+              <item name="16.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="16.shoppingCart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="18.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="18.shoppingCart" type="462c0819:PsiDirectoryNode" />
+              <item name="16.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="16.shoppingCart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="18.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="18.shoppingCart" type="462c0819:PsiDirectoryNode" />
+              <item name="16.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="16.shoppingCart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="18.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="18.shoppingCart" type="462c0819:PsiDirectoryNode" />
+              <item name="16.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="16.shoppingCart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="18.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="18.shoppingCart" type="462c0819:PsiDirectoryNode" />
+              <item name="16.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="16.shoppingCart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shopping" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="18.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="18.shoppingCart" type="462c0819:PsiDirectoryNode" />
+              <item name="16.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="16.shoppingCart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="18.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="18.shoppingCart" type="462c0819:PsiDirectoryNode" />
+              <item name="16.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="16.shoppingCart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="18.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="18.shoppingCart" type="462c0819:PsiDirectoryNode" />
+              <item name="16.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="16.shoppingCart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="16.shoppingCart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="16.shoppingCart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16.shoppingCart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="16.shoppingCart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="features" />
       <recent name="shopping" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -319,7 +452,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CartFeature">
+  <component name="RunManager" selected="Cucumber java.All Features in: test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -340,18 +473,87 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="BasketServiceShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All Features in: resources" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="shopping.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources" />
+      <option name="GLUE" value="" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="All Features in: resources" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="18.shoppingCart" />
+      <envs />
+    </configuration>
+    <configuration name="All Features in: test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test" />
+      <option name="GLUE" value="features" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="All Features in: test" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="18.shoppingCart" />
+      <envs />
+    </configuration>
+    <configuration name="Feature: cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/cart.feature" />
+      <option name="GLUE" value="" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="Feature: cart" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="18.shoppingCart" />
+      <envs />
+    </configuration>
+    <configuration name="RunCucumberTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="acceptance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="18.shoppingCart" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="shopping" />
-      <option name="MAIN_CLASS_NAME" value="shopping.BasketServiceShould" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="acceptance.RunCucumberTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -365,90 +567,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="BasketServiceShould.add_items_to_basket_when_adding_items" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="shopping.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="18.shoppingCart" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="shopping" />
-      <option name="MAIN_CLASS_NAME" value="shopping.BasketServiceShould" />
-      <option name="METHOD_NAME" value="add_items_to_basket_when_adding_items" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="BasketShould.strore_product_quantity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="shopping.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="18.shoppingCart" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="shopping" />
-      <option name="MAIN_CLASS_NAME" value="shopping.BasketShould" />
-      <option name="METHOD_NAME" value="strore_product_quantity" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="CartFeature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RunCucumberTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="18.shoppingCart" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="shopping" />
-      <option name="MAIN_CLASS_NAME" value="shopping.CartFeature" />
+      <option name="PACKAGE_NAME" value="features" />
+      <option name="MAIN_CLASS_NAME" value="features.RunCucumberTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="CartFeature.permit_aggregation_of_products_at_users" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="shopping.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="18.shoppingCart" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="shopping" />
-      <option name="MAIN_CLASS_NAME" value="shopping.CartFeature" />
-      <option name="METHOD_NAME" value="permit_aggregation_of_products_at_users" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -521,19 +648,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CartFeature" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CartFeature.permit_aggregation_of_products_at_users" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BasketShould.strore_product_quantity" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BasketServiceShould.add_items_to_basket_when_adding_items" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BasketServiceShould" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber java.All Features in: resources" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: cart" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RunCucumberTests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RunCucumberTests (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber java.All Features in: test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CartFeature" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BasketServiceShould" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BasketServiceShould.add_items_to_basket_when_adding_items" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BasketShould.strore_product_quantity" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CartFeature.permit_aggregation_of_products_at_users" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber java.All Features in: test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RunCucumberTests (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RunCucumberTests" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: cart" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber java.All Features in: resources" />
       </list>
     </recent_temporary>
   </component>
@@ -630,39 +757,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasketServiceShould - 2018.04.20 at 12h 44m 14s.xml">
-      <configuration name="BasketServiceShould" configurationId="JUnit" />
+    <history-entry file="All_Features_in__resources - 2018.04.26 at 15h 00m 29s.xml">
+      <configuration name="All Features in: resources" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="BasketServiceShould_add_items_to_basket_when_adding_items - 2018.04.20 at 12h 37m 02s.xml">
-      <configuration name="BasketServiceShould.add_items_to_basket_when_adding_items" configurationId="JUnit" />
+    <history-entry file="All_Features_in__test - 2018.04.26 at 15h 19m 31s.xml">
+      <configuration name="All Features in: test" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="BasketServiceShould_add_items_to_basket_when_adding_items - 2018.04.20 at 12h 38m 11s.xml">
-      <configuration name="BasketServiceShould.add_items_to_basket_when_adding_items" configurationId="JUnit" />
+    <history-entry file="All_Features_in__test - 2018.04.26 at 15h 22m 01s.xml">
+      <configuration name="All Features in: test" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="BasketServiceShould_add_items_to_basket_when_adding_items - 2018.04.20 at 12h 42m 02s.xml">
-      <configuration name="BasketServiceShould.add_items_to_basket_when_adding_items" configurationId="JUnit" />
+    <history-entry file="Feature__cart - 2018.04.26 at 15h 12m 19s.xml">
+      <configuration name="Feature: cart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="BasketShould_strore_product_quantity - 2018.04.20 at 12h 09m 12s.xml">
-      <configuration name="BasketShould.strore_product_quantity" configurationId="JUnit" />
+    <history-entry file="Feature__cart - 2018.04.26 at 15h 13m 02s.xml">
+      <configuration name="Feature: cart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="BasketShould_strore_product_quantity - 2018.04.20 at 12h 10m 49s.xml">
-      <configuration name="BasketShould.strore_product_quantity" configurationId="JUnit" />
+    <history-entry file="Feature__cart - 2018.04.26 at 15h 15m 32s.xml">
+      <configuration name="Feature: cart" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="BasketShould_strore_product_quantity - 2018.04.20 at 12h 11m 03s.xml">
-      <configuration name="BasketShould.strore_product_quantity" configurationId="JUnit" />
+    <history-entry file="RunCucumberTests - 2018.04.26 at 15h 17m 17s.xml">
+      <configuration name="RunCucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CartFeature - 2018.04.20 at 12h 44m 57s.xml">
-      <configuration name="CartFeature" configurationId="JUnit" />
+    <history-entry file="RunCucumberTests - 2018.04.26 at 15h 17m 38s.xml">
+      <configuration name="RunCucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CartFeature - 2018.04.23 at 12h 41m 28s.xml">
-      <configuration name="CartFeature" configurationId="JUnit" />
+    <history-entry file="RunCucumberTests - 2018.04.26 at 15h 19m 21s.xml">
+      <configuration name="RunCucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CartFeature_permit_aggregation_of_products_at_users - 2018.04.20 at 12h 11m 45s.xml">
-      <configuration name="CartFeature.permit_aggregation_of_products_at_users" configurationId="JUnit" />
+    <history-entry file="RunCucumberTests_(1) - 2018.04.26 at 15h 17m 54s.xml">
+      <configuration name="RunCucumberTests (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-199" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="-517" y="-1152" width="2048" height="1152" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -673,18 +800,18 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900834" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900834" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18958333" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18945312" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -752,44 +879,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/Mock.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/User1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/UserRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/shopping/BasketRepositoryShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="51" lean-forward="false" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/BasketNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="61" lean-forward="false" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/Basket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/shopping/BasketServiceShould.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -983,14 +1072,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/shopping/Mock.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/shopping/User1.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/shopping/UserRepository.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/shopping/User.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/shopping/BasketNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1002,7 +1083,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/shopping/BasketRepositoryShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="255">
           <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1010,26 +1091,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/ProductItemRecord.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/ProductItemRecord.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/BasketRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/ItemQuantityRecord.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/shopping/BasketShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="540">
+          <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/shopping/CartFeature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="360">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#440#441#0" expanded="true" />
             <element signature="e#534#535#0" expanded="true" />
@@ -1037,10 +1132,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="57" column="21" lean-forward="false" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../16.socialNetwork/16.socialNetwork/src/main/java/laullobet/org/FollowedRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/RunCucumberTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/CartStepdef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/shopping/BasketServiceShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
+        <state relative-caret-position="855">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/cart.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1053,29 +1192,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/Basket.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/BasketRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/ImpossibleToGetPriceAmountException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/shopping/BasketShould.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/ItemQuantityRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/ItemRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shopping/Basket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="36" column="54" lean-forward="false" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -1083,9 +1235,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.10.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>18</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: info.cukes:cucumber-core:1.2.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

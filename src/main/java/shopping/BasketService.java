@@ -4,7 +4,7 @@ public class BasketService {
     private final BasketRepository basketRepository;
     private ItemRepository itemRepository;
 
-    BasketService(BasketRepository basketRepository,ItemRepository itemRepository) {
+    public BasketService(BasketRepository basketRepository, ItemRepository itemRepository) {
         this.basketRepository = basketRepository;
         this.itemRepository = itemRepository;
     }
